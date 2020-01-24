@@ -7,3 +7,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlay/overlay/common
 # Bootanimation
 include vendor/overlay/bootanimation.mk
 
+# Fonts
+include vendor/overlay/fonts.mk
+
+
