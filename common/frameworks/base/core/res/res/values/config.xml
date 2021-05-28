@@ -208,4 +208,7 @@
         <item>com.linkedin.android</item>
         <item>com.tencent.mm</item>
     </string-array>
+
+    <dimen name="config_cardCornerRadius">24dp</dimen>
+
 </resources>
