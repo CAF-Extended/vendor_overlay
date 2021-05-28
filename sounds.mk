@@ -23,6 +23,3 @@ AOSIP_PRODUCT_PROPERTIES += \
    ro.config.ringtone=The_big_adventure.ogg \
    ro.config.notification_sound=Popcorn.ogg
 
-# Include Google Sounds for all
-PRODUCT_PACKAGES += \
-   SoundPickerPrebuilt
