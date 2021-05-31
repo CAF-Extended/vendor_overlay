@@ -125,11 +125,11 @@
     <bool name="config_buttonTextAllCaps">false</bool>
 
     <!-- Flag indicating whether round icons should be parsed from the application manifest. -->
-    <bool name="config_useRoundIcon">true</bool>
-
+    <bool name="config_useRoundIcon">false</bool>
+    
     <!-- Specifies the path that is used by AdaptiveIconDrawable class to crop launcher icons. -->
-    <string name="config_icon_mask" translatable="false">"M50 0A50 50,0,1,1,50 100A50 50,0,1,1,50 0"</string>
-
+    <string name="config_icon_mask" translatable="false">"M55,0 C25,0 0,25 0,50 0,78 28,100 55,100 85,100 100,85 100,58 100,30 86,0 55,0 Z"</string>
+    
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
 
@@ -209,6 +209,10 @@
         <item>com.tencent.mm</item>
     </string-array>
 
+    <dimen name="config_dialogCornerRadius">12dp</dimen>
+    <!-- Corner radius for bottom sheet system dialogs -->
+    <dimen name="config_bottomDialogCornerRadius">24dp</dimen>
+    <!-- Corner radius of search bars and cards -->
     <dimen name="config_cardCornerRadius">24dp</dimen>
 
 </resources>
