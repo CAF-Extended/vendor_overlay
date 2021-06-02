@@ -13,11 +13,11 @@ PRODUCT_PACKAGES += \
     PrimaryBlackOverlay \
     PrimaryCharcoalBlackOverlay \
     PrimaryClearOverlay \
-    PrimaryEtherealOverlay \
+    PrimaryNightOverlay \
     PrimaryFlameOverlay \
     PrimaryNatureOverlay \
     PrimaryOceanOverlay \
-    PrimarySolarizedOverlay \
+    PrimaryBlueOverlay \
 #    EmptyOverlay \
 
 # Accents

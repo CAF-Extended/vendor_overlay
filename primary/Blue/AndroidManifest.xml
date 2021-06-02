@@ -17,9 +17,9 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.android.theme.color.primary.ethereal"
+          package="com.android.theme.color.primary.blue"
           android:versionCode="1"
           android:versionName="1.0">
     <overlay android:targetPackage="android" android:category="android.theme.customization.primary_color" android:priority="2"/>
-    <application android:label="@string/primary_color_ethereal" android:hasCode="false"/>
+    <application android:label="@string/primary_color_blue" android:hasCode="false"/>
 </manifest>
