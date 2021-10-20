@@ -41,6 +41,8 @@
         <item>com.android.systemui.plugin.globalactions.wallet</item>
     </string-array>
 
-    <!-- SystemUIFactory component -->
-    <string name="config_systemUIFactoryComponent" translatable="false">org.protonaosp.systemui.CustomSystemUIFactory</string>
+    <string name="config_statusBarComponent">com.google.android.systemui.statusbar.phone.StatusBarGoogle</string>
+    <string name="config_systemUIFactoryComponent">com.google.android.systemui.SystemUIGoogleFactory</string>
+    <string name="config_systemUIVendorServiceComponent">com.google.android.systemui.GoogleServices</string>
+
 </resources>
